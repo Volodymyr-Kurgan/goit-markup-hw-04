@@ -617,16 +617,6 @@ border: 1px solid #EEEEEE; */
   background-color: #ffffff;
 }
 
-.social-list-link-blue {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #2196f3;
-}
-
 .social-list {
   display: flex;
   justify-content: center;
@@ -643,10 +633,29 @@ border: 1px solid #EEEEEE; */
 
 /* Чому іконки не змінили колір?  */
 
-.social-list-icon-first {
+.social-list-icon {
   fill: #ffffff;
 }
 
 .social-list-icon {
   fill: #afb1b8;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
+}
+
+.social-list-mph {
+  fill: #afb1b8;
+  margin-right: 10px;
+}
+
+.social-list-mph:hover {
+  fill: #2196f3;
 }
