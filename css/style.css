@@ -473,8 +473,17 @@ button {
 .team-title {
   margin-bottom: 50px;
 }
-/* 
-.team-list-item:not(:nth-child(3n)) {
+
+.team-list-item {
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* .team-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 } */
 
@@ -563,6 +572,8 @@ border: 1px solid #EEEEEE; */
 .team-list-div {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .portfolio-list-div {
@@ -594,4 +605,48 @@ border: 1px solid #EEEEEE; */
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.social-list-link-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #2196f3;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* .social-list-link-blue {
+  background-color: #2196f3;
+} */
+
+.team-list-div-p {
+  margin-bottom: 16px;
+}
+
+/* Чому іконки не змінили колір?  */
+
+.social-list-icon-first {
+  fill: #ffffff;
+}
+
+.social-list-icon {
+  fill: #afb1b8;
 }
