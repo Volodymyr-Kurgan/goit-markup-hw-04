@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Веб-студия</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="page-nav">
+          <a href="./index.html" class="logo link">Web <span>Studio</span> </a>
+
+          <ul class="menu list">
+            <li class="menu-item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="menu-item link">
+              <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="mail-phone list">
+          <li class="mail-phone-li">
+            <a class="mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="mail-phone-li">
+            <a class="contact-phone-number link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+
+      <!-- Test start -->
+
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+
+          <button class="order-btn" type="button">Заказать услугу</button>
+        </div>
+      </section>
+
+      <section class="features section">
+        <div class="container">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <ul class="features-ul list">
+            <li class="features-li">
+              <h3 class="features-title">Внимание к деталям</h3>
+              <p class="section-description">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+
+            <li class="features-li">
+              <h3 class="features-title">Пунктуальность</h3>
+              <p class="section-description">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features-li">
+              <h3 class="features-title">Планирование</h3>
+              <p class="section-description">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features-li">
+              <h3 class="features-title">Современные технологии</h3>
+              <p class="section-description">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2 class="about-title suptitle-doing">Чем мы занимаемся</h2>
+
+          <ul class="worktable list">
+            <li class="worktable-li">
+              <img
+                src="./images/about/box1.png"
+                alt="Программист за рабочим столом, печатает на клавиатуре. Слева от
+                него блок-схема. Перед ним планшет и монитор. На мониторе и на
+                планшете видны фрагменты кода."
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/about/box2.png"
+                alt="Разработчик держит в левой руке
+                телефон, а пальцами правой руки водит по тачпаду ноутбука. На
+                экране ноутбука изображены 3 картинки с телефонами."
+                width="370"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/about/box3.png"
+                alt="Дизайнер
+                держит планшет с цветовой схемой. На заднем фоне фрагменты
+                рабочего стола: монитор, клавиатура и мышка."
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+
+          <ul class="team-list list">
+            <li class="team-list-item">
+              <img
+                src="./images/team/img1.jpg"
+                alt="Парень в очках, в тёмной рубашке, улыбается."
+                width="270"
+              />
+
+              <div class="team-list-div">
+                <h3 class="team-list-title suptitle-team-list-title">
+                  Игорь Демьяненко
+                </h3>
+                <p lang="en">Product Designer</p>
+
+                <!-- Не виходить
+
+                  роблю 4 лішки
+                  ul.social-list>li.social-list-item*4>a.sociаl-list-link>svg.socail-list-icon>use
+
+                  ставлю
+
+                  <svg class="socail-list-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-instagram2"></use>
+                      </svg> 
+
+                      Не зрозуміло:
+                      - у лектора в АйДі не приписує слово Айкон
+                      - в мене файл названий просто Інстаграм = а в файлі СВГ двійка в кінці.
+
+                      іконки лежать на всяк випадок в папці "icons". Відтіля я генерував в Айкомон
+
+                      Хочу розібратися з цим, а потім продовжити далі
+
+
+ -->
+
+                <ul class="social-list list">
+                  <li class="social-list-item">
+                    <a href="" class="social-list-link">
+                      <svg class="socail-list-icon" width="20" height="20">
+                        <use href="./images/sprite.svg#icon-instagram2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list-item">
+                    <a href="" class="social-list-link">
+                      <svg class="socail-list-icon">
+                        <use></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list-item">
+                    <a href="" class="social-list-link">
+                      <svg class="socail-list-icon">
+                        <use></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-list-item">
+                    <a href="" class="social-list-link">
+                      <svg class="socail-list-icon">
+                        <use></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="team-list-item">
+              <img
+                src="./images/team/img2.jpg"
+                alt="Блондинка в очках, в пиджаке, улыбается."
+                width="270"
+              />
+              <div class="team-list-div">
+                <h3 class="suptitle-team-list-title">Ольга Репина</h3>
+                <p lang="en">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/team/img3.jpg"
+                alt="Парень, в светлой рубашке, улыбается, смотрит в сторону."
+                width="270"
+              />
+              <div class="team-list-div">
+                <h3 class="suptitle-team-list-title">Николай Тарасов</h3>
+                <p lang="en">Marketing</p>
+              </div>
+            </li>
+            <li class="team-list-item">
+              <img
+                src="./images/team/img4.jpg"
+                alt="Парень в очках, в тёмной футболке, смотрит с хитрой ухмылкой."
+                width="270"
+              />
+              <div class="team-list-div">
+                <h3 class="suptitle-team-list-title">Михаил Ермаков</h3>
+                <p lang="en">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="contacts">
+      <div class="container">
+        <a href="./index.html" class="logo-footer link"
+          >Web <span>Studio</span>
+        </a>
+
+        <address>
+          <ul class="adress-list list">
+            <li class="adress-list-li">
+              <a
+                class="adress-link link"
+                href="https://goo.gl/maps/zzgeLLJ7TNSSK1X57"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li class="adress-list-li">
+              <a class="contact-phone-footer link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+            <li class="adress-list-li">
+              <a class="mail-footer link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
