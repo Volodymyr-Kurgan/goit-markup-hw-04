@@ -87,12 +87,20 @@ address {
   color: #757575;
 }
 
+.mail-phone-li:hover,
+.mail-phone-li:focus,
 .mail:hover,
 .mail:focus,
 .contact-phone-number:hover,
 .contact-phone-number:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
+
+/* .mail-phone:hover,
+.mail-phone:hover {
+  color: var(--accent-color);
+} */
 
 .order-btn {
   font-family: inherit;
@@ -455,11 +463,23 @@ button {
   margin-bottom: 198px;
 }
 
-.hero-container {
-  width: 1600px;
-
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 280px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/icons/05.png");
+
+  background-size: cover;
+
+  background-color: rgba(196, 196, 196, 1);
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -674,22 +694,16 @@ border: 1px solid #EEEEEE; */
 .features-grey {
   display: flex;
   background-color: #f5f4fa;
+  align-content: center;
+  justify-content: center;
 
-  width: 270px;
-  height: 120px;
   margin-bottom: 30px;
-}
-
-.features-pictures-a {
   padding: 25px 100px;
 }
 
 .footer-scooter {
-  width: 1600px;
-
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
+  display: flex;
+  align-items: baseline;
 }
 
 .clients-icons-div {
@@ -705,46 +719,35 @@ border: 1px solid #EEEEEE; */
 }
 
 .icons-clients {
-  width: 1170px;
+  width: 170px;
+  height: 92px;
+}
 
+.clients {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  text-align: center;
+}
+
+.wowlink {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 10px;
-
-  left: 15.44%;
-  right: 77.94%;
-  top: 85.59%;
-  bottom: 12.36%;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
-.clients {
-}
-
-.wowlink {
-  fill: #afb1b8;
-}
-
 .wowclients {
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 .wowtitle {
   padding-bottom: 50px;
   color: #212121;
   size: 36px;
-}
-
-.wow {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  text-align: center;
-}
-
-.wowbox {
-  margin-top: 16px;
-  margin-bottom: 16px;
 }
 
 .wowadress {
@@ -816,4 +819,19 @@ border: 1px solid #EEEEEE; */
 
 .double-svg {
   fill: #ffffff;
+}
+
+.wowicons {
+  fill: #afb1b8;
+}
+
+.wowicons:hover,
+.wowicons:focus {
+  fill: #2196f3;
+}
+
+.contacts2 {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
