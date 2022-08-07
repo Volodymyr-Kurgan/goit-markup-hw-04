@@ -77,6 +77,9 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+
+  display: flex;
+  align-items: center;
 }
 
 .mail {
@@ -85,6 +88,9 @@ address {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+
+  display: flex;
+  align-items: center;
 }
 
 .mail-phone-li:hover,
@@ -266,8 +272,6 @@ address {
   color: #2196f3;
 
   display: block;
-
-  margin-left: 215px;
 }
 
 .adress-list {
@@ -609,14 +613,6 @@ border: 1px solid #EEEEEE; */
   border-bottom: 1px solid #eeeeee;
 }
 
-.adress-list-li:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.adress-list-li {
-  padding-left: 215px;
-}
-
 .filter {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -745,9 +741,16 @@ border: 1px solid #EEEEEE; */
 }
 
 .wowtitle {
-  padding-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
   color: #212121;
-  size: 36px;
 }
 
 .wowadress {
@@ -775,10 +778,6 @@ border: 1px solid #EEEEEE; */
 
 .footer-scooter {
   display: flex;
-  width: 1600px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2f303a;
 }
 
 .contacts-double {
@@ -825,10 +824,25 @@ border: 1px solid #EEEEEE; */
   fill: #afb1b8;
 }
 
+/* .wowicons:hover,
+.wowicons:focus {
+  fill: #2196f3;
+} */
+
+.wowlink:hover,
+.wowlink:focus {
+  color: #2196f3;
+}
+
 .wowicons:hover,
 .wowicons:focus {
   fill: #2196f3;
 }
+
+/* .wowlink:hover,
+.wowlink:focus {
+  fill: #2196f3;
+} */
 
 .contacts2 {
   background: #2f303a;
