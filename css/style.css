@@ -272,6 +272,7 @@ address {
   color: #2196f3;
 
   display: block;
+  margin-bottom: 20px;
 }
 
 .adress-list {
@@ -720,8 +721,8 @@ border: 1px solid #EEEEEE; */
 }
 
 .clients {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   text-align: center;
 }
 
@@ -824,28 +825,31 @@ border: 1px solid #EEEEEE; */
   fill: #afb1b8;
 }
 
-/* .wowicons:hover,
-.wowicons:focus {
-  fill: #2196f3;
-} */
-
-.wowlink:hover,
-.wowlink:focus {
-  color: #2196f3;
-}
-
 .wowicons:hover,
 .wowicons:focus {
   fill: #2196f3;
 }
 
-/* .wowlink:hover,
+.wowlink:hover,
 .wowlink:focus {
-  fill: #2196f3;
-} */
+  border-color: #2196f3;
+}
 
 .contacts2 {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.icon-envelope,
+.icon-smart {
+  margin-right: 10px;
+}
+
+.adress-list-li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.mail-phone-li:not(:last-child) {
+  margin-right: 50px;
 }
